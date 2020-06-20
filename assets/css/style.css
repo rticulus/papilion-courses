@@ -15,15 +15,27 @@
 /*---------------------------------------------------------- General */
 
 .social-links {
-    position: relative;
-    right: -350px;
-    padding: 10px;
+    padding: 2%;
     margin-top: 30px;
 }
 
 .social-links i {
-    font-size: 24px;
+    font-size: 20px;
     color: black;
+}
+
+.book-now {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/*---------------------------------------------------------- Media Query */
+
+@media(max-width: 768px) {
+    .display-none-sm {
+        display: none;
+    }
 }
 
 
@@ -37,7 +49,7 @@ header {
     background: url("../images/Papilion\ 1500x1500mm.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: contain;
     min-height: 240px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -50,6 +62,7 @@ header {
 
 .title-text {
     margin: 20px 0 20px 130px;
+    font-size: 2.5vw;
 }
 
 .list-inline-item:not(:last-child) {
@@ -115,4 +128,17 @@ header {
 .footer-social-links i {
     padding-right: 10px;
     font-size: 24px;
+}
+
+
+/*---------------------------------------------------------- Home content */
+
+.media-gallery {
+    height: 60vh;
+    background-color: palevioletred;
+}
+
+.art-blocks {
+    height: 15vh;
+    text-align: center;
 }
