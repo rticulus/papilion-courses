@@ -1,144 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-/*---------------------------------------------------------- Colors */
-
-.bg-color-title {
-    background-color: transparent;
-}
-
-.bg-color-footer {
-    background-color: gray;
-}
-
-
-/*---------------------------------------------------------- General */
-
-.social-links {
-    padding: 2%;
-    margin-top: 30px;
-}
-
-.social-links i {
-    font-size: 20px;
-    color: black;
-}
-
-.book-now {
-    font-size: 20px;
-    color: #fff;
-}
-
-
-/*---------------------------------------------------------- Media Query */
-
-@media(max-width: 768px) {
-    .display-none-sm {
-        display: none;
-    }
-}
-
-
-/*---------------------------------------------------------- Header */
-
-header {
-    margin: 0;
-}
-
-.logo {
-    background: url("../images/Papilion\ 1500x1500mm.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 240px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.title {
-    height: 120px;
-}
-
-.title-text {
-    margin: 20px 0 20px 130px;
-    font-size: 2.5vw;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.navcontainer {
-    font-size: 0px;
-}
-
-.navtab {
-    height: 120px;
-    text-align: center;
-    padding: 0;
-}
-
-#navbar li {
-    font-size: 16px;
-    padding: 0;
-}
-
-#navbar li a {
-    color: black;
-    width: 100%;
-    text-decoration: none;
-    height: 120px;
-}
-
-#navbar span {
-    font-size: 24px;
-    padding-top: 10px;
-}
-
-#navbar a i {
-    padding-top: 22px;
-    display: block;
-    color: black;
-    font-size: 26px;
-}
-
-
-/*---------------------------------------------------------- Hover */
-
-.hvr-sweep-to-bottom:before {
-    background: rgb(244, 110, 0);
-    height: 120px;
-}
-
-
-/*---------------------------------------------------------- footer*/
-
-.footer-links {
-    min-height: 70px;
-    text-align: center;
-    padding-top: 25px;
-}
-
-.footer-links a {
-    text-decoration: none;
-    color: black;
-}
-
-.footer-social-links i {
-    padding-right: 10px;
-    font-size: 24px;
-}
-
-
-/*---------------------------------------------------------- Home content */
-
-.media-gallery {
-    height: 60vh;
-    background-color: palevioletred;
-}
-
-.art-blocks {
-    height: 15vh;
-    text-align: center;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        /*---------------------------------------------------------- Colors */
+        
+        .bg-color-title {
+            background-color: transparent;
+        }
+        
+        .bg-color-footer {
+            background-color: gray;
+        }
+        /*---------------------------------------------------------- General */
+        
+        .social-links {
+            padding: 2%;
+            margin-top: 30px;
+        }
+        
+        .social-links i {
+            font-size: 20px;
+            color: black;
+        }
+        
+        .book-now {
+            font-size: 20px;
+            color: #fff;
+            border-radius: none;
+        }
+        /*---------------------------------------------------------- Media Query */
+        
+        @media(max-width: 767px) {
+            .display-none-sm {
+                display: none;
+            }
+        }
+        
+        @media(max-width: 420px) {
+            #navbar li a i {
+                font-size: 16px;
+            }
+            #navbar li a span {
+                font-size: 16px;
+            }
+        }
+        /*---------------------------------------------------------- Header */
+        
+        header {
+            margin: 0;
+        }
+        
+        .logo {
+            background: url("../images/papilogo.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            min-height: 240px;
+            transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -webkit-transition: all .5s ease-in-out;
+        }
+        
+        .title {
+            height: 120px;
+        }
+        
+        .title-text {
+            margin: 20px 0 20px 130px;
+            font-size: 2.5vw;
+        }
+        
+        .list-inline-item:not(:last-child) {
+            margin: 0;
+        }
+        
+        .navcontainer {
+            font-size: 0px;
+        }
+        
+        .navtab {
+            height: 120px;
+            text-align: center;
+            padding: 0;
+        }
+        
+        #navbar li {
+            font-size: 16px;
+            padding-top: 15px;
+        }
+        
+        #navbar li a {
+            color: black;
+            width: 100%;
+            text-decoration: none;
+            height: 120px;
+        }
+        
+        #navbar span {
+            font-size: 24px;
+            padding-top: 20px;
+        }
+        
+        #navbar a i {
+            padding-top: 22px;
+            display: block;
+            color: black;
+            font-size: 26px;
+        }
+        /*---------------------------------------------------------- Hover */
+        
+        .hvr-sweep-to-bottom:before {
+            background: rgb(244, 110, 0);
+            height: 120px;
+        }
+        /*---------------------------------------------------------- footer*/
+        
+        .footer-links {
+            min-height: 70px;
+            text-align: center;
+            padding-top: 25px;
+        }
+        
+        .footer-links a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .footer-social-links i {
+            padding-right: 10px;
+            font-size: 24px;
+        }
+        /*---------------------------------------------------------- Home section */
+        
+        .media-gallery {
+            height: 60vh;
+            background-color: palevioletred;
+        }
+        
+        .art-blocks {
+            height: 170px;
+            text-align: center;
+            padding-top: 45px;
+        }
+        /*---------------------------------------------------------- About Us section */
+        
+        .ourteam-title {
+            text-align: center;
+            margin: 15px;
+        }
+        
+        .team-blocks {
+            height: 170px;
+            text-align: center;
+            padding: 20px;
+        }
+        /*---------------------------------------------------------- Services section */
+        /*---------------------------------------------------------- Contact us section */
+        
+        .contactus-book-now {
+            position: relative;
+            max-width: 33vw;
+            background-color: green;
+            margin: 50px auto;
+        }
+        
+        .address-block {
+            text-align: center;
+            margin: 50px auto;
+        }
+        
+        .mapouter {
+            position: relative;
+            text-align: right;
+            height: 300px;
+            width: 300px;
+            margin: 50px auto;
+        }
+        
+        .gmap_canvas {
+            overflow: hidden;
+            background: none!important;
+            height: 300px;
+            width: 300px;
+        }
