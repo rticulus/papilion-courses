@@ -10,6 +10,14 @@
     background-color: gray;
 }
 
+.bg-navtab-color {
+    background-color: #ff9d00;
+}
+
+.bg-color-title {
+    background-color: #fafafa;
+}
+
 
 /*---------------------------------------------------------- General */
 
@@ -21,6 +29,10 @@
 .social-links i {
     font-size: 20px;
     color: black;
+}
+
+.social-links-block {
+    text-align: center;
 }
 
 .book-now {
@@ -59,7 +71,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 240px;
+    height: 120px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -70,8 +82,9 @@ header {
 }
 
 .title-text {
-    margin: 20px 0 20px 130px;
-    font-size: 2.5vw;
+    margin: 30px 0;
+    font-size: 30px;
+    text-align: center;
     /*------change the viewport to px------*/
 }
 
@@ -83,35 +96,35 @@ header {
     font-size: 0px;
 }
 
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+
 .navtab {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-#navbar li {
-    font-size: 16px;
-    padding-top: 15px;
-}
-
-#navbar li a {
-    color: black;
+.navtab a {
+    color: #fafafa;
     width: 100%;
     text-decoration: none;
     height: 120px;
 }
 
-#navbar span {
+.navtab a span {
     font-size: 24px;
     padding-top: 20px;
     /*---fix the padding so it sits in the middle---*/
 }
 
-#navbar a i {
+.navtab a i {
     padding-top: 22px;
     /*---fix the padding so it sits in the middle---*/
     display: block;
-    color: black;
+    color: #fafafa;
     font-size: 26px;
 }
 
@@ -119,7 +132,7 @@ header {
 /*---------------------------------------------------------- Hover */
 
 .hvr-sweep-to-bottom:before {
-    background: rgb(244, 110, 0);
+    background: rgba(0, 0, 0, 0.15);
     height: 120px;
 }
 
@@ -146,8 +159,10 @@ header {
 /*---------------------------------------------------------- Home section */
 
 .media-gallery {
-    height: 60vh;
+    height: auto;
     background-color: palevioletred;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .art-blocks {
@@ -157,11 +172,16 @@ header {
 }
 
 
+/*---------------------------------------------------------- gallary */
+
+.w-100 {}
+
+
 /*---------------------------------------------------------- About Us section */
 
 .ourteam-title {
     text-align: center;
-    margin: 15px;
+    margin: 15px 0px;
 }
 
 .team-blocks {
@@ -172,6 +192,10 @@ header {
 
 
 /*---------------------------------------------------------- Services section */
+
+.service-blocks {
+    height: 250px;
+}
 
 
 /*---------------------------------------------------------- Contact us section */
