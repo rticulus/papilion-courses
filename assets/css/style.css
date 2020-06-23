@@ -3,23 +3,55 @@
 /*---------------------------------------------------------- Colors */
 
 .bg-color-title {
-    background-color: transparent;
+    background-color: #fafafa;
 }
 
 .bg-color-footer {
-    background-color: gray;
+    background-color: #fafafa;
 }
 
 .bg-navtab-color {
     background-color: #ff9d00;
 }
 
-.bg-color-title {
+.bg-color-mediagallary {
+    background-color: #8f8f8f;
+}
+
+.bg-color-artblocks-section {
+    background-color: #fafafa;
+}
+
+.bg-color-artblocks-gray {
+    background-color: #8f8f8f;
+}
+
+.bg-color-artblocks-white {
     background-color: #fafafa;
 }
 
 
 /*---------------------------------------------------------- General */
+
+body {
+    background-color: #fafafa;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.small-title {
+    font-weight: 300;
+}
+
+.big-title {
+    font-weight: 600;
+}
 
 .social-links {
     padding: 2px;
@@ -28,17 +60,22 @@
 
 .social-links i {
     font-size: 20px;
-    color: black;
+    color: #000;
 }
 
 .social-links-block {
     text-align: center;
 }
 
-.book-now {
+.btn-book-now {
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
     font-size: 20px;
+    position: relative;
+    max-width: 33vw;
+    background-color: rgb(30, 173, 1);
+    margin: 50px auto;
     color: #fff;
-    border-radius: none;
 }
 
 
@@ -50,12 +87,21 @@
     }
 }
 
+@media(max-width: 1024px) {
+    .media-gallery {
+        min-width: 90%;
+    }
+    .btn-book-now {
+        max-width: 50vw;
+    }
+}
+
 @media(max-width: 420px) {
     #navbar li a i {
-        font-size: 16px;
+        font-size: 20px;
     }
     #navbar li a span {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -85,7 +131,8 @@ header {
     margin: 30px 0;
     font-size: 30px;
     text-align: center;
-    /*------change the viewport to px------*/
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
 }
 
 .list-inline-item:not(:last-child) {
@@ -116,12 +163,13 @@ header {
 
 .navtab a span {
     font-size: 24px;
-    padding-top: 20px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
     /*---fix the padding so it sits in the middle---*/
 }
 
 .navtab a i {
-    padding-top: 22px;
+    padding-top: 35px;
     /*---fix the padding so it sits in the middle---*/
     display: block;
     color: #fafafa;
@@ -147,7 +195,9 @@ header {
 
 .footer-links a {
     text-decoration: none;
-    color: black;
+    color: #fd7709;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
 }
 
 .footer-social-links i {
@@ -158,23 +208,78 @@ header {
 
 /*---------------------------------------------------------- Home section */
 
-.media-gallery {
-    height: auto;
-    background-color: palevioletred;
-    margin: 0 auto;
-    max-width: 100%;
+.btn-home-margin {
+    margin-top: 100px;
+}
+
+.art-blocks-section {
+    padding-top: 50px;
+}
+
+.art-blocks-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.art-blocks-title h2 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
 }
 
 .art-blocks {
-    height: 170px;
     text-align: center;
-    padding-top: 45px;
+}
+
+.art-blocks-seperation {
+    padding-top: 20px;
+    margin: 10px;
+    background-color: #aaa;
+    height: 170px;
+}
+
+.art-blocks h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+.art-blocks p {
+    font-family: "Advent pro", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.media-gallery {
+    height: auto;
+    margin: 50px auto;
+    max-width: 70%;
+    margin-bottom: 100px;
+}
+
+.media-gallery-container {
+    width: 100%;
+}
+
+.media-gallary-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.media-gallary-title h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+#media-gallery-no-margin {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 
 /*---------------------------------------------------------- gallary */
-
-.w-100 {}
 
 
 /*---------------------------------------------------------- About Us section */
@@ -199,13 +304,6 @@ header {
 
 
 /*---------------------------------------------------------- Contact us section */
-
-.contactus-book-now {
-    position: relative;
-    max-width: 33vw;
-    background-color: green;
-    margin: 50px auto;
-}
 
 .address-block {
     text-align: center;
