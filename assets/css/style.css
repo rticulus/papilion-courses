@@ -18,15 +18,7 @@
     background-color: #8f8f8f;
 }
 
-.bg-color-artblocks-section {
-    background-color: #fafafa;
-}
-
-.bg-color-artblocks-gray {
-    background-color: #8f8f8f;
-}
-
-.bg-color-artblocks-white {
+.bg-color-descriptionblocks-section {
     background-color: #fafafa;
 }
 
@@ -76,6 +68,44 @@ body {
     background-color: rgb(30, 173, 1);
     margin: 50px auto;
     color: #fff;
+}
+
+.description-blocks-section {
+    padding-top: 50px;
+}
+
+.description-blocks-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.description-blocks-title h2 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 28px;
+}
+
+.description-blocks {
+    text-align: center;
+    padding-top: 45px;
+    margin: 10px;
+    background-color: #aaa;
+    height: 170px;
+}
+
+.description-blocks h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 26px;
+}
+
+.description-blocks p {
+    font-family: "Advent pro", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
 }
 
 
@@ -143,11 +173,6 @@ header {
     font-size: 0px;
 }
 
-#navbar {
-    margin: 0;
-    padding: 0;
-}
-
 .navtab {
     height: 120px;
     text-align: center;
@@ -201,7 +226,8 @@ header {
 }
 
 .footer-social-links i {
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     font-size: 24px;
 }
 
@@ -210,45 +236,6 @@ header {
 
 .btn-home-margin {
     margin-top: 100px;
-}
-
-.art-blocks-section {
-    padding-top: 50px;
-}
-
-.art-blocks-title {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.art-blocks-title h2 {
-    font-family: "poppins", sans-serif;
-    font-weight: 400;
-    color: #000;
-}
-
-.art-blocks {
-    text-align: center;
-}
-
-.art-blocks-seperation {
-    padding-top: 20px;
-    margin: 10px;
-    background-color: #aaa;
-    height: 170px;
-}
-
-.art-blocks h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    color: #000;
-}
-
-.art-blocks p {
-    font-family: "Advent pro", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000;
 }
 
 .media-gallery {
@@ -279,20 +266,35 @@ header {
 }
 
 
-/*---------------------------------------------------------- gallary */
+/*---------------------------------------------------------- gallery */
 
 
 /*---------------------------------------------------------- About Us section */
 
-.ourteam-title {
-    text-align: center;
-    margin: 15px 0px;
+.about-papilion {
+    background-color: #aaa;
 }
 
-.team-blocks {
-    height: 170px;
+.about-papilion-title {
+    margin: 50px 0;
     text-align: center;
-    padding: 20px;
+}
+
+.about-papilion-title h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.about-papilion-block {
+    margin: 50px;
+    text-align: center;
+}
+
+.about-papilion-block p {
+    font-family: "Advent pro", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 
