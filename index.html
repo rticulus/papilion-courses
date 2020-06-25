@@ -14,7 +14,7 @@
 <body>
     <header>
         <div class="row no-gutters">
-            <a href="index.html" class="col-sm-12 col-md-2 logo">
+            <a href="index.html" class="display-none-sm col-md-2 logo">
             </a>
             <div class="col-8 display-none-sm">
                 <h1 class="title-text"><span class="small-title">small changes</span>, <span class="big-title">BIG effects</span></h1>
@@ -28,18 +28,43 @@
         </div>
 
         <div class="row no-gutters">
-            <nav class="col-12 no-padding">
+            <div class="col-12 display-none-md">
+                <nav class="navbar navbar-light bg-light">
+                    <a href="index.html" class="navbar-brand logo-hamburger"></a>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+                                <span class="navbar-toggler-icon"></span></button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                        <ul class="navbar-nav mr-auto">
+                            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="services.html #theatre">Theatre</a>
+                                    <a class="dropdown-item" href="services.html #dance">Dance</a>
+                                    <a class="dropdown-item" href="services.html #music">Music</a>
+                                    <a class="dropdown-item" href="services.html #graffiti">Graffiti</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="contactus.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <nav class="col-12 display-none-sm no-padding">
                 <ul id="navbar" class="list-inline navcontainer">
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                     </li>
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="aboutus.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>About Us</span></a>
                     </li>
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="services.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Services</span></a>
                     </li>
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="contactus.html" class="hvr-sweep-to-bottom"><i class="fa fa-phone-square" aria-hidden="true"></i><span>Contact Us</span></a>
                     </li>
                 </ul>
@@ -52,25 +77,25 @@
             <div class="col-12 description-blocks-title">
                 <h2>What is your interest?</h2>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="description-blocks">
                     <h3>Theatre</h3>
                     <p>Hip-hop theatre in world class!</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="description-blocks">
                     <h3>Dance</h3>
                     <p>Different styles of dances!</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="description-blocks">
                     <h3>Music</h3>
                     <p>Production, Song writing, singing and instruments!</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="description-blocks">
                     <h3>Graffiti</h3>
                     <p>Spray techniques, shading, lining and etc!</p>
@@ -82,7 +107,7 @@
             </a>
         </div>
         <!--Photo gallery, idea to add gifs etc.-->
-        <div class="row no-gutters bg-color-mediagallary media-gallery-container">
+        <div class="row no-gutters bg-color-container my-container">
             <div class="col-12 media-gallary-title">
                 <h2>In Action</h2>
             </div>

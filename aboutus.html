@@ -14,32 +14,57 @@
 <body>
     <header>
         <div class="row no-gutters">
-            <a href="index.html" class="col-sm-12 col-md-2 logo">
+            <a href="index.html" class="display-none-sm col-md-2 logo">
             </a>
             <div class="col-8 display-none-sm">
-                <h1 class="title-text">small changes, BIG effects</h1>
+                <h1 class="title-text"><span class="small-title">small changes</span>, <span class="big-title">BIG effects</span></h1>
             </div>
             <div class="col-2 list-inline display-none-sm social-links-block">
-                <span class="social-links list-inline-item"><i class="fa fa-youtube-play"></i></span>
-                <span class="social-links list-inline-item"><i class="fa fa-linkedin-square"></i></span>
-                <span class="social-links list-inline-item"><i class="fa fa-facebook-square"></i></span>
-                <span class="social-links list-inline-item"><i class="fa fa-instagram"></i></span>
+                <span class="social-links list-inline-item"><a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></span>
+                <span class="social-links list-inline-item"><a href="#" target="_blank"><i class="fa fa-linkedin-square"></i></a></span>
+                <span class="social-links list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a></span>
+                <span class="social-links list-inline-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></span>
             </div>
         </div>
 
         <div class="row no-gutters">
-            <nav class="col-12">
+            <div class="col-12 display-none-md">
+                <nav class="navbar navbar-light bg-light">
+                    <a href="index.html" class="navbar-brand logo-hamburger"></a>
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+                                <span class="navbar-toggler-icon"></span></button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                        <ul class="navbar-nav mr-auto">
+                            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="services.html #theatre">Theatre</a>
+                                    <a class="dropdown-item" href="services.html #dance">Dance</a>
+                                    <a class="dropdown-item" href="services.html #music">Music</a>
+                                    <a class="dropdown-item" href="services.html #graffiti">Graffiti</a>
+                                </div>
+                            </li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="contactus.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <nav class="col-12 display-none-sm no-padding">
                 <ul id="navbar" class="list-inline navcontainer">
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                     </li>
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="aboutus.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>About Us</span></a>
                     </li>
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="services.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>Services</span></a>
                     </li>
-                    <li class="col-6 col-md-3 bg-navtab-color list-inline-item navtab">
+                    <li class="col-3 bg-navtab-color list-inline-item navtab">
                         <a href="contactus.html" class="hvr-sweep-to-bottom"><i class="fa fa-phone-square" aria-hidden="true"></i><span>Contact Us</span></a>
                     </li>
                 </ul>
@@ -50,12 +75,16 @@
     <section>
         <!--About Us-->
         <div class="row no-gutters">
-            <div class="col-12 about-papilion-title"></div>
-            <h2>What do we do?</h2>
-            <div class="col-12 about-papilion">
-
+            <div class="col-12 about-papilion-title">
+                <h2>What do we do?</h2>
+            </div>
+        </div>
+        <div class="row bg-color-container my-container">
+            <div class="col-12">
                 <div class="about-papilion-block">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, quae. Quasi iure quae cum libero sint odio dolorum nisi blanditiis et assumenda repellendus, officiis mollitia sequi, saepe maiores ratione commodi?</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quam nam numquam, asperiores perferendis officia beatae assumenda eum tempore repellendus. Cumque repudiandae natus consectetur beatae perspiciatis voluptatibus rem suscipit
+                        porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sunt rerum et, a quia velit commodi veritatis necessitatibus delectus sit. Dolore blanditiis natus dolores nihil tempora doloremque error, minima sit. Lorem
+                        ipsum dolor sit amet consectetur, adipisicing elit. Ipsum neque hic debitis dolores maiores natus blanditiis quae earum aperiam nam quisquam tenetur et necessitatibus consectetur, illo, voluptate optio dignissimos quasi?</p>
                 </div>
             </div>
         </div>
@@ -64,26 +93,30 @@
             <div class="col-12 description-blocks-title">
                 <h2>Our team</h2>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="description-blocks">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="description-blocks our-team-blocks">
+                    <img class="staff-img" src="assets/images/Remz1.png">
                     <h3>Remi</h3>
                     <p>Hip-hop Theatre Coach</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="description-blocks">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="description-blocks our-team-blocks">
+                    <img class="staff-img" src="assets/images/Remz1.png">
                     <h3>MK</h3>
                     <p>Dancer and Actor</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="description-blocks">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="description-blocks our-team-blocks">
+                    <img class="staff-img" src="assets/images/Remz1.png">
                     <h3>Amanda</h3>
                     <p>Poet and Songwriter</p>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <div class="description-blocks">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="description-blocks our-team-blocks">
+                    <img class="staff-img" src="assets/images/Remz1.png">
                     <h3>Love</h3>
                     <p>Art and Graffiti</p>
                 </div>

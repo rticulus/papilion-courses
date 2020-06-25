@@ -14,11 +14,11 @@
     background-color: #ff9d00;
 }
 
-.bg-color-mediagallary {
-    background-color: #8f8f8f;
+.bg-color-container {
+    background-color: #aaa;
 }
 
-.bg-color-descriptionblocks-section {
+.bg-color-descripition-section {
     background-color: #fafafa;
 }
 
@@ -59,6 +59,13 @@ body {
     text-align: center;
 }
 
+.my-container {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
 .btn-book-now {
     font-family: "poppins", sans-serif;
     font-weight: 500;
@@ -92,6 +99,7 @@ body {
     margin: 10px;
     background-color: #aaa;
     height: 170px;
+    border-radius: 8px;
 }
 
 .description-blocks h3 {
@@ -106,6 +114,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     color: #000;
+    margin-top: -10px;
 }
 
 
@@ -113,6 +122,15 @@ body {
 
 @media(max-width: 767px) {
     .display-none-sm {
+        display: none;
+    }
+    .service-media {
+        min-width: 100%;
+    }
+}
+
+@media(min-width: 768px) {
+    .display-none-md {
         display: none;
     }
 }
@@ -151,6 +169,15 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.logo-hamburger {
+    background: url("../images/papilogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 120px;
 }
 
 .title {
@@ -245,8 +272,8 @@ header {
     margin-bottom: 100px;
 }
 
-.media-gallery-container {
-    width: 100%;
+.carousel-inner {
+    border-radius: 8px;
 }
 
 .media-gallary-title {
@@ -258,22 +285,14 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #000;
-}
-
-#media-gallery-no-margin {
-    margin-right: 0;
-    margin-left: 0;
+    font-size: 20px;
 }
 
 
-/*---------------------------------------------------------- gallery */
+/*---------------------------------------------------------- gallary */
 
 
 /*---------------------------------------------------------- About Us section */
-
-.about-papilion {
-    background-color: #aaa;
-}
 
 .about-papilion-title {
     margin: 50px 0;
@@ -284,6 +303,7 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 28px;
+    color: #000000;
 }
 
 .about-papilion-block {
@@ -297,11 +317,67 @@ header {
     font-weight: 500;
 }
 
+.our-team-blocks {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.staff-img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
 
 /*---------------------------------------------------------- Services section */
 
+.service-blocks-section {
+    padding-top: 50px;
+}
+
+.service-blocks-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-blocks-title h2 {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 28px;
+}
+
 .service-blocks {
-    height: 250px;
+    text-align: justify;
+    padding: 40px 15px;
+    margin: 10px;
+    background-color: #aaa;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-blocks h3 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 26px;
+}
+
+.service-blocks p {
+    font-family: "Advent pro", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.service-media {
+    height: auto;
+    margin: 30px auto;
+    max-width: 70%;
+}
+
+.service-text p {
+    margin: 30px 20px 30px 10px;
 }
 
 
