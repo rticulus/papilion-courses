@@ -129,6 +129,15 @@ body {
     }
 }
 
+@media(max-width: 768px) {
+    .navcontainer li a span {
+        font-size: 20px;
+    }
+    .navcontainer li a i {
+        font-size: 22px;
+    }
+}
+
 @media(min-width: 768px) {
     .display-none-md {
         display: none;
@@ -145,11 +154,13 @@ body {
 }
 
 @media(max-width: 420px) {
-    #navbar li a i {
-        font-size: 20px;
+    .form-control {
+        min-width: 70%;
+        margin: 15px auto;
+        text-align: center;
     }
-    #navbar li a span {
-        font-size: 20px;
+    .btn-secondary {
+        min-width: 50%;
     }
 }
 
@@ -178,6 +189,9 @@ header {
     background-size: contain;
     height: 120px;
     width: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .title {
@@ -190,6 +204,7 @@ header {
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-style: italic;
+    color: #000;
 }
 
 .list-inline-item:not(:last-child) {
@@ -217,15 +232,67 @@ header {
     font-size: 24px;
     font-weight: 200;
     font-family: "Poppins", sans-serif;
-    /*---fix the padding so it sits in the middle---*/
 }
 
 .navtab a i {
-    padding-top: 35px;
-    /*---fix the padding so it sits in the middle---*/
+    padding-top: 30px;
     display: block;
     color: #fafafa;
     font-size: 26px;
+}
+
+
+/*-----------------Hamberger icon colors*/
+
+.fa-bars {
+    color: #ff9d00;
+    margin: 4px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fd7709;
+    border-width: 1.5px;
+}
+
+
+/*-----------------Hamberger active color*/
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fd7709;
+}
+
+
+/*-----------------Hamberger links color*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ff9d00;
+}
+
+
+/*-----------------Hamberger dropdown active color*/
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff9d00;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fd7709;
+}
+
+
+/*-----------------Hamberger dropdown link and border color*/
+
+.dropdown-item {
+    color: #ff9d00;
+}
+
+.dropdown-menu {
+    border-color: #fd7709;
 }
 
 
@@ -265,31 +332,27 @@ header {
     margin-top: 100px;
 }
 
-.media-gallery {
+.home-gallery {
     height: auto;
     margin: 50px auto;
     max-width: 70%;
-    margin-bottom: 100px;
 }
 
 .carousel-inner {
     border-radius: 8px;
 }
 
-.media-gallary-title {
+.home-gallery-title {
+    margin: 50px 0;
     text-align: center;
-    margin-top: 50px;
 }
 
-.media-gallary-title h2 {
+.home-gallery-title h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #000;
-    font-size: 20px;
+    font-size: 28px;
 }
-
-
-/*---------------------------------------------------------- gallary */
 
 
 /*---------------------------------------------------------- About Us section */
@@ -386,6 +449,7 @@ header {
 .address-block {
     text-align: center;
     margin: 50px auto;
+    margin-top: 150px;
 }
 
 .mapouter {
@@ -401,4 +465,41 @@ header {
     background: none!important;
     height: 300px;
     width: 300px;
+}
+
+
+/*-------------------------------- Message form */
+
+.message-form {
+    margin: 50px 0;
+}
+
+.message-form h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+.form-control {
+    width: 50%;
+    margin: 15px auto;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    color: #aaa;
+}
+
+.form-group {
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+.btn-secondary {
+    margin-top: 20px;
+    background-color: #ff9d00;
+    border-color: #ff9d00;
+    width: 30%;
 }

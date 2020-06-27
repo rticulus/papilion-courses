@@ -1,6 +1,7 @@
-<strong>Welcome To PAPILION</strong> 
+<strong>Welcome To PAPILION</strong>
 ---------------------
-<medium>Where <i>small</i> changes have <strong ><i>BIG</i></strong > effects!</medium>
+
+<medium>Where <i>small</i> changes have <strong><i>BIG</i></strong> effects!</medium>
 
 * Introduction
 * Project Scope
