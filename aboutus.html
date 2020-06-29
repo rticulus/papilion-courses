@@ -27,12 +27,14 @@
             </div>
         </div>
 
+
+
         <div class="row no-gutters">
             <div class="col-12 display-none-md">
                 <nav class="navbar navbar-light bg-light">
                     <a href="index.html" class="navbar-brand logo-hamburger"></a>
                     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
-                                <span class="navbar-toggler-icon"></span></button>
+                                <i class="fa fa-bars" aria-hidden="true"></i></button>
 
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
@@ -50,7 +52,7 @@
                             </li>
                             <li class="nav-item mr-2"><a class="nav-link" href="contactus.html">Contact us</a></li>
                             <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="#">Book Now</a></li>
+                            <li class="nav-item mr-2"><a class="nav-link" href="#" data-toggle="modal" data-target="#bookNowModal">Book now</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -73,7 +75,7 @@
                         <a href="gallery.html" class="hvr-sweep-to-bottom"><i class="fa fa-camera-retro" aria-hidden="true"></i><span>Gallery</span></a>
                     </li>
                     <li class="col-2 bg-navtab-color list-inline-item navtab">
-                        <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i><span>Book now</span></a>
+                        <a href="#" class="hvr-sweep-to-bottom" data-toggle="modal" data-target="#bookNowModal"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i><span>Book now</span></a>
                     </li>
                 </ul>
             </nav>
@@ -89,9 +91,12 @@
         <div class="row bg-color-container my-container">
             <div class="col-12">
                 <div class="about-papilion-block">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quam nam numquam, asperiores perferendis officia beatae assumenda eum tempore repellendus. Cumque repudiandae natus consectetur beatae perspiciatis voluptatibus rem suscipit
-                        porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus sunt rerum et, a quia velit commodi veritatis necessitatibus delectus sit. Dolore blanditiis natus dolores nihil tempora doloremque error, minima sit. Lorem
-                        ipsum dolor sit amet consectetur, adipisicing elit. Ipsum neque hic debitis dolores maiores natus blanditiis quae earum aperiam nam quisquam tenetur et necessitatibus consectetur, illo, voluptate optio dignissimos quasi?</p>
+                    <p> HTK Sverige is a community arts project hailing from Hässelby-Vällingby in Stockholm. In our work, we are based on the philosophy of hip hop, where peace, love and community are at the center. We use a liberating and participatory
+                        pedagogy that gives everyone the opportunity to be co-creators in the creative process. Together we explore and tell personal and shared stories by integrating theater with hip hop's various art forms - dance, MCing, graffiti and
+                        DJing. Practical and visual methods and tools allow people with different conditions and backgrounds to participate on equal terms. We see hip-hop as a medium for expressing themselves, but also a tool for understanding oneself
+                        and others. HTK is led by a group of creative, innovative and experienced artists, artists and educators. We collaborate with Kulturhuset-Stadsteatern in Vällingby and many of our activities take place in their premises. We work
+                        primarily in Swedish and English, but the spoken language should never be an obstacle to participation. There are many ways to express yourself and communicate! HTK Sverige is a partnership consisting of three organizations: Community
+                        Bridge, Papilion AB and Kulturhuset Stadsteatern Vällingby. The project is funded by the Cultural Council.</p>
                 </div>
             </div>
         </div>
@@ -131,9 +136,9 @@
         </div>
         <!--Book us now button-->
         <div class="row no-gutters">
-            <a href="" class="col-12 btn btn-book-now">
-                Book Now!
-            </a>
+            <button class="col-12 btn btn-book-now" data-toggle="modal" data-target="#bookNowModal">
+                Book us here!
+            </button>
         </div>
     </section>
     <footer>
@@ -152,6 +157,47 @@
             </div>
         </div>
     </footer>
+    <div class="modal" tabindex="-1" role="dialog" id="bookNowModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Book now!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="emailInput">Email address</label>
+                            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter your email here." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nameInput">Full Name</label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="Enter your full name here." required>
+                        </div>
+                        <div class="form-group">
+                            <p>Which service do you want to book?</p>
+                            <select id="dropdown" name="service" class="form-control" required>
+                          <option disabled selected value>Select your requested service</option>
+                          <option value="theatre">Theatre</option>
+                          <option value="dance">Dance</option>
+                          <option value="music">Music</option>
+                          <option value="graffiti">Graffiti</option>
+                        </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dateInput">What date for?</label>
+                            <input type="date" id="dateInput" class="form-control" name="trip-start" value="today" min="2020-01-01" max="2021-08-30">
+
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
