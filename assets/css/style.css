@@ -111,17 +111,6 @@ body {
 }
 
 
-/*----------------------- Home art links */
-
-.description-blocks a {
-    text-decoration: none;
-    color: #fff;
-    font-family: "poppins", sans-serif;
-    font-weight: 300;
-    margin-trim: 20px;
-}
-
-
 /*---------------------------------------------------------- Media Query */
 
 @media(max-width: 767px) {
@@ -139,6 +128,13 @@ body {
     }
     .navcontainer li a i {
         font-size: 22px;
+    }
+    .my-container div .gallery-img-left {
+        margin: 25px;
+    }
+    .my-container div .gallery-img-right {
+        float: unset;
+        margin: 25px;
     }
 }
 
@@ -166,11 +162,6 @@ body {
     .btn-secondary {
         min-width: 50%;
     }
-}
-
-.submit {
-    font-family: "Poppins", sans-serif;
-    margin: auto;
 }
 
 
@@ -251,7 +242,7 @@ header {
 }
 
 
-/*-----------------Hamberger icon colors*/
+/*-----------------Hamburger icon colors*/
 
 .fa-bars {
     color: #ff9d00;
@@ -264,7 +255,7 @@ header {
 }
 
 
-/*-----------------Hamberger active color*/
+/*-----------------Hamburger active color*/
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active {
@@ -272,14 +263,14 @@ header {
 }
 
 
-/*-----------------Hamberger links color*/
+/*-----------------Hamburger links color*/
 
 .navbar-light .navbar-nav .nav-link {
     color: #ff9d00;
 }
 
 
-/*-----------------Hamberger dropdown active color*/
+/*-----------------Hamburger dropdown active color*/
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -294,7 +285,7 @@ header {
 }
 
 
-/*-----------------Hamberger dropdown link and border color*/
+/*-----------------Hamburger dropdown link and border color*/
 
 .dropdown-item {
     color: #ff9d00;
@@ -361,6 +352,22 @@ header {
     font-weight: 400;
     color: #000;
     font-size: 28px;
+}
+
+.home-service-links {
+    height: 170px;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+/*----------------------- Home art links */
+
+.description-blocks a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
 }
 
 
@@ -458,7 +465,6 @@ header {
 .address-block {
     text-align: center;
     margin: 50px auto;
-    margin-top: 150px;
 }
 
 .mapouter {
@@ -511,4 +517,41 @@ header {
     background-color: #ff9d00;
     border-color: #ff9d00;
     width: 30%;
+}
+
+
+/*---------------------------------------------------------- Gallery */
+
+.gallery-title {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.gallery-title h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+}
+
+.gallery-img-left {
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+.gallery-img-right {
+    float: right;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+
+
+/*---------------------------------------------------------- Modal */
+
+.form-group,
+.form-control,
+.modal-title {
+    font-family: "poppins", sans-serif;
 }
