@@ -100,11 +100,11 @@
                 <form>
                     <div class="form-group">
                         <label for="emailInput">Name</label>
-                        <input type="text" class="form-control" id="nameInput" placeholder="First Name and Surname">
+                        <input type="text" class="form-control" id="nameInput" placeholder="First Name and Surname" required>
                     </div>
                     <div class="form-group">
                         <label for="emailInput">Email address</label>
-                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
                     </div>
                     <div class="form-group">
                         <label for="subjectInput">Subject</label>
@@ -112,14 +112,14 @@
                     </div>
                     <div class="form-group">
                         <label for="messageInput">Message</label>
-                        <textarea class="form-control" id="messageInput" rows="5" placeholder="Start typing here..."></textarea>
+                        <textarea class="form-control" id="messageInput" rows="5" placeholder="Start typing here..." required></textarea>
                     </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-secondary">Send!</button>
+                    <div class="form-group"><button type="submit" class="btn btn-success">Submit</button>
                     </div>
                 </form>
             </div>
         </div>
+
         <!--Book us now button-->
         <div class="row no-gutters">
             <button class="col-12 btn btn-book-now" data-toggle="modal" data-target="#bookNowModal">
@@ -174,10 +174,11 @@
                         </div>
                         <div class="form-group">
                             <label for="dateInput">What date for?</label>
-                            <input type="date" id="dateInput" class="form-control" name="trip-start" value="today" min="2020-01-01" max="2021-08-30">
+                            <input type="date" id="dateInput" class="form-control" name="trip-start" value="today" min="2020-01-01" max="2021-08-30" required>
 
                         </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
+                        <div class="form-group"><button type="submit" class="btn btn-success">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
