@@ -95,7 +95,7 @@ body {
 
 .description-blocks {
     text-align: center;
-    padding-top: 45px;
+    padding-top: 60px;
     margin: 10px;
     background-color: #aaa;
     height: 170px;
@@ -104,17 +104,21 @@ body {
 
 .description-blocks h3 {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #000;
     font-size: 26px;
+    margin-bottom: 7px;
 }
 
-.description-blocks p {
-    font-family: "Advent pro", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000;
-    margin-top: -10px;
+
+/*----------------------- Home art links */
+
+.description-blocks a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    margin-trim: 20px;
 }
 
 
@@ -162,6 +166,11 @@ body {
     .btn-secondary {
         min-width: 50%;
     }
+}
+
+.submit {
+    font-family: "Poppins", sans-serif;
+    margin: auto;
 }
 
 
@@ -421,7 +430,7 @@ header {
 .service-blocks h3 {
     text-align: center;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #000;
     font-size: 26px;
 }
