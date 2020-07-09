@@ -25,6 +25,28 @@
 
 /*---------------------------------------------------------- General */
 
+/*-------------social-links-------------*/
+
+.fa {
+    font-size: 125%;
+  }
+  
+  .fa-youtube-play {
+    color: red;
+  }
+  
+  .fa-linkedin-square {
+    color: #283e4a;
+  }
+  
+  .fa-facebook-square {
+    color: #4267b2;
+  }
+  
+  .fa-instagram {
+    color: #9f36b7;
+  }
+
 body {
     background-color: #fafafa;
 }
@@ -50,10 +72,10 @@ body {
     margin-top: 30px;
 }
 
-.social-links i {
+/*---.social-links i {
     font-size: 20px;
     color: #000;
-}
+}---*/
 
 .social-links-block {
     text-align: center;
@@ -110,26 +132,7 @@ body {
     margin-bottom: 7px;
 }
 
-/*-------------social-links-------------*/
 
-.fa {
-    font-size: 125%;
-  }
-  .fa-youtube-play {
-    color: red;
-  }
-  
-  .fa-linkedin-square {
-    color: #283e4a;
-  }
-  
-  .fa-facebook-square {
-    color: #4267b2;
-  }
-  
-  .fa-instagram {
-    color: #9f36b7;
-  }
 
 
 /*---------------------------------------------------------- Media Query */
