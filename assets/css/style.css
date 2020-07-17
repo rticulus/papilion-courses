@@ -24,6 +24,23 @@ background-color: #fafafa;
 body{
     background-color: #fafafa;
 }
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.first-section {
+    position: relative;
+    margin-top: 240px;
+}
+
+footer {
+    position: relative;
+    width: 100%
+}
 .no-padding{
     padding: 0;
 }
