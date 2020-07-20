@@ -1,96 +1,192 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/rticulus/milestone-project-one)
+# Papilion AB
 
-# Welcome To PAPILION
+![Image](/assets/images/papilogo.png)
 
+The aim of this project is to **sell creative workshops** via **Papilion AB** a Swedish based creative consultancy service provider.
+Please see my [live site](https://….) deployed on Github. 
 
-## Where small changes have BIG effects!
----
+### Table of Contents
 
-* Introduction
-* Project Scope
-* Features
-* User
-* Ux
-* Tests
-* Technology
-* Credits and Acknowledgements
-
-
-
-## INTRODUCTION
-
-
-**This site was created to be a simple and accessible booking and viewing space for anyone from industry, school or clubs to book our creative services at a glance. A lot is yet to be developed, however you are able to see the services provided and immediately send a request or query which can be received and responded to within 24hrs. Papilion is a creative community of consultants from many backgrounds and walks of life. We believe our knowledge and collective 50years of experience in art, theatre, dance, music, community engagement and group development can help you and your organisation reach positive and progressive outcomes, whatever your target or goal**
-
-## Project Scope
-
-
-**The idea to create this new site was simple. I had some great images to work with and an idea from a previous attempt with a Wordpress template several years ago. Later, I intend to add a more interactive Gallery, and some videos of Customer Satisfaction. I have considered incorporating an online resource for trials and pre-workshop bookings too.**
-
-## Features
+- Overview
+- Description
+- UX
+- Features
+- Installation
+- Usage
+- Testing
+- Code validity
+- Credits
+- Acknowledgments
+- Support
+- Features left to implement
+- Version Control
+- Deployment
+- Project barriers and the solutions
 
 
-**So far, the key Features are the social links which allow our clients to access a visual experience of our previous works, the Hover in the navbar is very satisfying as it is glided over. Another great Feature is the Hamburger menu when mobile.**
+### Overview
 
-## Users
-
-
-**In the process of creating this new site i was thinking about the requirements of the User. Why did they come to this website? why would they stay? how easy have i made it for them to peruse and in so doing fulfil my purpose for creating site in the first instance. I want to sell workshops.** 
-
-**The way i have chosen to do this is by providing enough content for them to understand our services, recognise their choices in the consistent manner of the 'Book Us Now' presence throughout the site. For the curious we have a query area.**
-
-**Some thoughts from interested parties:**
-
-- As a User I would to know other customer experiences on this site 
-  
-  A. Thankyou User. A 'Customer Satisfaction' section is under-consideration. Would you find it more convenient in the 'About Us' section or as another navigation button? 
-
-- As a User I think your site is a bit neutral. I would like to see some movement and maybe catch a sense of the workshop atmosphere.
-  
-  A. Thankyou for your comment and a great idea! In the meantime please check out https://youtu.be/J0WSZuVI3GM for some of our great videos.**
+Papilion is a creative community of consultant artists from many backgrounds and walks of life. We believe our knowledge and collective 50years of experience in art, theatre, dance, music, community engagement and group development can help you and your organisation reach positive and progressive outcomes, whatever your target or goal
 
 
+### Description
+
+This site was created to be a simple and accessible booking and viewing space for anyone from industry, school or clubs to book our creative services at a glance. A lot is yet to be developed, however you are able to see the services provided and immediately send a request or query which can be received and responded to within 24hrs. 
+
+***
 
 
 ## UX
 
-* To book- click 'Book Now' and you will be presented with a form to fill some basic information, then click 'Send' to send your booking.
 
-* For queries- Go to 'Contact Us' and leave a query in the provided ..... and we will respond with in 24hrs.
+#### User Stories
 
+- *"As a User I would like to know other customer experiences on this site"*
 
-## Tests
+- *"As a User and “”*
 
-**This site was tested on Google Simulator and has not been fully tested in real world devices yet:
-
-  - Made to fit most devices and browsers, however please report any anomalies to the contact below.
-
-  - Bootstrap complications in dropdown menu and navbar, fixed 
-  - Margin issue where the page did not fill the screen, removed 8px margin left/right 
-  - Also found that a complete browser shutdown cleared cache better for updates to take effect.
-  - Written on an Apple desktop device, using Visual Studio Code and transferred to Github repository
-
-  - Had to 
-
-## Technology
-
-**As this my first fully operational site I used:**
-
-  - Bootstrap: I found this useful but had to edit aspects of the modal to make the BOOK Now work and navbar to fit properly. I am still unable to move or centralise the Book Now header in the booking form
-  - HTML: I am proficient 
-  - CSS: this has been a learning experience as I had not worked a great deal with CSS. Styling the pages and learning the color code was very helpful.
-  - Fontawesome - <*---fontawesome website---*>
-  - Maps courtesy of Google Maps
+- *"We are keen to get involved, but would like to contact someone via email to discuss in more depth"*
 
 
+#### 1.	Strategy
 
-### Credits and Acknowledgements
+The aim of this site is that people can immediately contact us to book a workshop or query the available services.
 
 
-Current Supporters:
+##### Project Goals:
 
-* me, myself, I - <https://www.dmacuk.org>
-* HTK Sverige - <https://www.htksverige.com>
-* Tove Samzelius- <https://www.communitybridge.se>
-* Da Preacha - no domain
+- Sell more creative workshops
+
+- Inform the customer on what services are available and why they should choose us
+
+- Facilitate contact through online forms
+
+
+##### Customer Goals:
+
+- Immediate information on service available 
+
+- Ability to book a timely consultation
+	
+- Option to request more information
+
+
+#### 2.	Scope
+
+The site is predominantly a booking site for physical creative workshops:
+
+- Branding colours with easy to read content
+
+- Motion in the form of a carousel of images
+
+- 5-page with links from navigation and services in index.html, a big booking button 
+
+- A query and booking form
+
+- Location via a map
+
+- Contact email address
+
+
+#### 3.	Structure
+
+The structure is aimed at easy practical access to short succinct info on each service.
+
+For the merely curious they can contact us via the query form and for those who know what they want, a booking form is provided with a calendar to book specific dates. Images of activities we provide and a direct booking button is also available.
+
+
+#### 4.	Skeleton Surface
+
+- Wireframes: clearly defined 4-page site
+
+- Fixed navigation bar for easy reference to pages
+
+- Main(Home) page, About (Support Options) page, Image Gallery page and Contact page with donation options
+
+- Contact Form
+
+- Footer with Social Media
+
+![Index Page](https://github.com/…)
+
+![About page](https://github.com/…)
+
+![Gallery page](https://github.com/…)
+
+![Contact page](https://github.com/…)
+
+
+#### 5. 	Surface
+
+I have opted for a simple clean approach with the images selling our service. The idea being customers would be enthused by the images, find the service they personally require and immediately book a consultation.
+
+***
+
+
+##### Existing Features
+
+
+* Feature 1 - Intro - “Home” logo will always take you back to the homepage wherever you are on the site
+
+* Feature 2 - Links - These allow the user to go to the relevant information for them specifically, without needing to scroll through the entire site.
+
+* Feature 3 - Navigation - easy navigation with a fixed, direct navigation links to topic/service (theatre, dance, music and art)page and section, navbar hover-highlight style for better navigation
+
+* Feature 4 - Booking - This allows the user to easily find the dates of Orthodox Easter for the next three years so that they can book their holiday appropriately.
+
+* Feature 5 - Social  - These are direct links to social networks, each links directly to the project site which opens on a separate page. The only generic link is LinkedIn.
+
+
+## __Future Goals__
+
+Wishlist of future ideas to be implemented at a future date:
+
+* Chat
+
+It would be a service benefit and potential sales angle to have live chat, or at least a Bot to to give FAQs
+
+* Online Resource 
+
+For teachers and team leaders, an online resource package preparing the groups for workshop visits
+
+* Map  
+
+I would like to integrate a more interactive map than is presently available. Users should be available to, for safety, see the location and surroundings of the theatre venue where we are based and where most workshops happen.
+
+* Booking  
+
+I would like to create a better system so users can book by checking available slots and creating a payment system to assist in service and sales handling. 
+
+
+### Testing
+
+The first few commits were big structural dumps, testing the skeleton structure and then the skeleton with placeholders. As I started to apply the ‘hamburger modal’ from the ’Whiskey’ project and the Bootstrap Carousel, found conflicting code. 
+
+
+### Bugs
+
+.theia directory was missing, along with docker file, so replaced these by downloading correct directories and files from CI template and uploaded into Gitpod
+
+
+### Code validity
+
+
+### Credits
+
+Selection of images taken from free-to-use stock image sites:
+
+- [Pixabay](https://pixabay.com/)
+
+- 
+
+
+### Acknowledgments
+
+
+### Support
+
+For any issue resolution or assistance, please contact .......
+
+
+### Deployment
 
