@@ -408,6 +408,7 @@ margin:30px 20px 30px 10px;
 .address-block {
     text-align: center;
     margin: 50px auto;
+    line-height: 35px;
 }
 
 .mapouter {
@@ -455,3 +456,26 @@ margin:30px 20px 30px 10px;
     border-color: #ff9d00;
     width: 30%;
 }
+
+.gallery-title{
+    margin: 50px 0;
+    text-align: center;
+    }
+    .gallery-title h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size:28px;
+    color: #000000;
+    }
+    .gallery-img-left {
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    }
+    
+    .gallery-img-right{
+    float: right;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    }
