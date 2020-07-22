@@ -21,6 +21,27 @@ background-color: #fafafa;
 }
 
 /*---------------------------------------------------------- General */
+
+.fa {
+    font-size: 125%;
+  }
+  
+  .fa-youtube-play {
+    color: red;
+  }
+  
+  .fa-linkedin-square {
+    color: #283e4a;
+  }
+  
+  .fa-facebook-square {
+    color: #4267b2;
+  }
+  
+  .fa-instagram {
+    color: #9f36b7;
+  }
+
 body{
     background-color: #fafafa;
 }
@@ -61,8 +82,8 @@ footer {
 
 .social-links i {
     font-size: 20px;
-    color:#000;
 }
+
 .social-links-block {
     text-align: center;
 }
@@ -166,8 +187,12 @@ footer {
 /*---------------------------------------------------------- Header */
 
 header {
-    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    top: 0;
 }
+
 
 .logo {
     background: url("../images/papilogo.png");
@@ -478,4 +503,14 @@ margin:30px 20px 30px 10px;
     margin-right: 100px;
     margin-top: 75px;
     margin-bottom: 50px;
+    }
+
+    /*---------------------------------------------------------- Modal */
+    .form-group, .form-control, .modal-title{
+    font-family:"poppins", sans-serif;
+    }
+    
+    .modal-title {
+    margin-left: auto;
+    padding-left: 33px;
     }

@@ -31,7 +31,7 @@ Papilion is a creative community of consultant artists from many backgrounds and
 
 ### Description
 
-This site was created to be a simple and accessible booking and viewing space for anyone from industry, school or clubs to book our creative services at a glance. A lot is yet to be developed, however you are able to see the services provided and immediately send a request or query which can be received and responded to within 24hrs. 
+This site is a simple, accessible booking and viewing space for anyone from industry, school or clubs to book creative services at a glance. A lot is yet to be developed, however you are able to see the services provided and immediately book a consultancy or query which can be received and responded to within 24hrs. 
 
 ***
 
@@ -41,11 +41,11 @@ This site was created to be a simple and accessible booking and viewing space fo
 
 #### User Stories
 
-- *"As a User I would like to know other customer experiences on this site"*
+- *"As a User I go on a lot of sites and I am overloaded with information and pop-ups trying to sell me other things I did not come looking for. Can you make your site simple and easy to access?”*
 
-- *"As a User and “”*
+- *"As a mobile-User sometimes I would like be able to go to the next page quicker by having the navigation accessible at all times”*
 
-- *"We are keen to get involved, but would like to contact someone via email to discuss in more depth"*
+- *”As a mother and User, I would like to stay on this site while I check your social medias on another tab…”*
 
 
 #### 1.	Strategy
@@ -77,15 +77,15 @@ The site is predominantly a booking site for physical creative workshops:
 
 - Branding colours with easy to read content
 
-- Motion in the form of a carousel of images
+- Motion in the form of a carousel of great images
 
-- 5-page with links from navigation and services in index.html, a big booking button 
+- 5-page with links from navigation and services in index.html plus a big booking button 
 
-- A query and booking form
+- A booking form with client’s information so they can be contacted
 
-- Location via a map
+- Location via an interactive map
 
-- Contact email address
+- Contact form to request more information
 
 
 #### 3.	Structure
@@ -109,7 +109,7 @@ For the merely curious they can contact us via the query form and for those who 
 
 ![Index Page](https://github.com/…)
 
-![About page](https://github.com/…)
+![About page](https://github.com/rticulus/milestone-project-one/blob/master/PapilionABStructure%20Wireframe/About%20us.png)
 
 ![Gallery page](https://github.com/…)
 
@@ -123,7 +123,7 @@ I have opted for a simple clean approach with the images selling our service. Th
 ***
 
 
-##### Existing Features
+## Features
 
 
 * Feature 1 - Intro - “Home” logo will always take you back to the homepage wherever you are on the site
@@ -137,7 +137,7 @@ I have opted for a simple clean approach with the images selling our service. Th
 * Feature 5 - Social  - These are direct links to social networks, each links directly to the project site which opens on a separate page. The only generic link is LinkedIn.
 
 
-## __Future Goals__
+##### __Future Goals__
 
 Wishlist of future ideas to be implemented at a future date:
 
@@ -160,7 +160,13 @@ I would like to create a better system so users can book by checking available s
 
 ### Testing
 
-The first few commits were big structural dumps, testing the skeleton structure and then the skeleton with placeholders. As I started to apply the ‘hamburger modal’ from the ’Whiskey’ project and the Bootstrap Carousel, found conflicting code. 
+* The first few commits were big structural dumps, testing the skeleton structure and then the skeleton with placeholders, all worked well. 
+
+* As I started to apply the ‘hamburger’ modal from the ’Whiskey’ project and the Bootstrap Carousel.
+
+* 
+
+ 
 
 
 ### Bugs
@@ -189,4 +195,3 @@ For any issue resolution or assistance, please contact .......
 
 
 ### Deployment
-
