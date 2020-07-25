@@ -64,7 +64,7 @@ The aim of this site is that people can immediately contact us to book a worksho
 
 ##### Customer Goals:
 
-- Immediate information on service available 
+- Immediate information on available services
 
 - Ability to book a timely consultation
 	
@@ -75,13 +75,13 @@ The aim of this site is that people can immediately contact us to book a worksho
 
 The site is predominantly a booking site for physical creative workshops:
 
-- Branding colours with easy to read content
+- Brand colours with easy to read content
 
-- Motion in the form of a carousel of great images
+- Motion in the form of carousels of great images
 
-- 5-page with links from navigation and services in index.html plus a big booking button 
+- 5-pages with links from navigation and services plus a big booking button 
 
-- A booking form with client’s information so they can be contacted
+- A booking form for client information so they can be contacted
 
 - Location via an interactive map
 
@@ -92,28 +92,34 @@ The site is predominantly a booking site for physical creative workshops:
 
 The structure is aimed at easy practical access to short succinct info on each service.
 
-For the merely curious they can contact us via the query form and for those who know what they want, a booking form is provided with a calendar to book specific dates. Images of activities we provide and a direct booking button is also available.
+- For the merely curious they can contact us via the query form and for those who know what they want, a booking form is provided with a calendar to book specific dates. 
+
+- Images of activities we provide and a direct booking button is also available.
+
+- Easy navigation throughout
 
 
 #### 4.	Skeleton Surface
 
-- Wireframes: clearly defined 4-page site
+- Wireframes: clearly defined 5-page site
 
-- Fixed navigation bar for easy reference to pages
+- Navigation bar for easy reference to pages
 
-- Main(Home) page, About (Support Options) page, Image Gallery page and Contact page with donation options
-
-- Contact Form
+- Main(Home) page, About (Support Options) page, Image Gallery page and Contact page with contact form
 
 - Footer with Social Media
 
-![Index Page](https://github.com/…)
+![About us](https://user-images.githubusercontent.com/65713111/88452741-8236cb00-ce61-11ea-9a83-7094247af61a.png)
 
-![About page](https://github.com/rticulus/milestone-project-one/blob/master/PapilionABStructure%20Wireframe/About%20us.png)
+![Contact_2](https://user-images.githubusercontent.com/65713111/88452742-8367f800-ce61-11ea-8a2a-93a8d2dcc2a7.png)
 
-![Gallery page](https://github.com/…)
+![Contact](https://user-images.githubusercontent.com/65713111/88452743-8367f800-ce61-11ea-9849-130249d6e17b.png)
 
-![Contact page](https://github.com/…)
+![Home_2](https://user-images.githubusercontent.com/65713111/88452744-84008e80-ce61-11ea-863e-4cda5e60342a.png)
+
+![Home](https://user-images.githubusercontent.com/65713111/88452745-84992500-ce61-11ea-9369-5e0d22542e0b.png)
+
+![services](https://user-images.githubusercontent.com/65713111/88452746-8531bb80-ce61-11ea-8e69-acc5b3f7e519.png)
 
 
 #### 5. 	Surface
